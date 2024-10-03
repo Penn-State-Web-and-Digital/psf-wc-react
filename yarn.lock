@@ -571,9 +571,9 @@
     "@psu-flex/platform-theme" "*"
 
 "@psu-flex/core-ui-data-display@*":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@psu-flex/core-ui-data-display/-/core-ui-data-display-0.1.2.tgz#170f6fd28986f57f78d1bcbf3084801d21c63d4d"
-  integrity sha512-cYRyUSlAwYTW2PqA2hQsYK40QBefhVY2yFqNHPWuRnrZ+NvJyc99FiaBG37Ld2QPUun45GD9OyqCHhoXycrmbg==
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@psu-flex/core-ui-data-display/-/core-ui-data-display-0.1.3.tgz#8e91f86c84320610e1d6cd317c4f3e8f4cc2a4eb"
+  integrity sha512-W9rUkTLq+XpaltrSffgzTztURbrH0Ypa/7gZ71ms/x+MFpvCS+8IcUwVhZSuj8pmIqJ0A/Dm6GOP7vQ0zZFnPA==
   dependencies:
     "@psu-flex/common-ui-types" "*"
     "@psu-flex/core-ui-layout" "*"
@@ -653,9 +653,9 @@
     theme-ui "^0.16.2"
 
 "@psu-flex/core-ui-layout@*":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@psu-flex/core-ui-layout/-/core-ui-layout-0.1.2.tgz#7e09a22870c6e4482f3ab78095fd58f0af60d319"
-  integrity sha512-WcsNIAiGVI2z9GLpKBnAUdDY9HvW/hT2SOORM5M0gyUOkCj7tJznj8nIE1FKoTMUx++Ws/NLo3kJqRW7sYMtcA==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@psu-flex/core-ui-layout/-/core-ui-layout-0.1.4.tgz#1cea7444dd93a9d9c0acd795489e0bcb9bab9e0c"
+  integrity sha512-pWTZipDiuYi9xTgM4jpl7xfS8oHMJKJvyXhYFfC48/i20YraqUui2voZK03rlZzf2zAGzCOC9/wTPfN33GUkyQ==
   dependencies:
     "@psu-flex/common-ui-helpers" "*"
     "@psu-flex/common-ui-types" "*"
@@ -666,9 +666,9 @@
     theme-ui "^0.16.2"
 
 "@psu-flex/core-ui-navigation@*":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@psu-flex/core-ui-navigation/-/core-ui-navigation-0.1.2.tgz#2bb5d143d76ac3c6b25bdefe4c0f663933f46ac9"
-  integrity sha512-auVIye+HFu2mV/DuYayoEHoxZifkYCkWKu8EeYP2jfhLF3iDHc9vqEwDrA2/a90T2+JcHFP5GGvCOoZTSbJbEg==
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@psu-flex/core-ui-navigation/-/core-ui-navigation-0.1.3.tgz#ed8af502286767fa004f676df6cd0fc9e24490a6"
+  integrity sha512-hK6/mjhq0TzmzKidDrvFp++3licsewrSfDcddkQ+mnjl4Na3xBrjI/3AgqAl7qbPhBBmoT4IA+VYZc6KaXAumg==
   dependencies:
     "@emotion/react" "^11.11.4"
     "@psu-flex/common-ui-types" "*"
