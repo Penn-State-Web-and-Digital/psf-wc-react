@@ -1,3 +1,4 @@
+import React from 'react';
 import '../../node_modules/@psu-flex/wc-styles/dist/psf-styles.css';
 import { fetchAllFederatedData, serializeObjects } from '../components/utility';
 
