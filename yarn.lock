@@ -586,10 +586,10 @@
     react-stately "^3.22.0"
     theme-ui "^0.16.2"
 
-"@psu-flex/core-ui-federated-wc@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@psu-flex/core-ui-federated-wc/-/core-ui-federated-wc-1.2.0.tgz#99f49500d49c3ba1f842f56bde44c47619ee409f"
-  integrity sha512-y/4SJoDMl4QysoYiw6t0dsZvdEog4hy8utypo6VgTCHw6KFFVp/R5mVZchaw2icDkJxII6hHywFlXBrhmnOdeg==
+"@psu-flex/core-ui-federated-wc@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@psu-flex/core-ui-federated-wc/-/core-ui-federated-wc-1.2.1.tgz#50cf723c3ee786b807b4cf8d22360d6c91159c95"
+  integrity sha512-50cdBHj0yVFuhXbl/Nq5Hu0yscNwTZcv0tWBUoK1bau9EuAWonRx7Kx8ULCT/0kQpY8110mb6T4CNUao0Solmw==
   dependencies:
     "@psu-flex/core-ui-federated" "*"
     "@psu-flex/platform-theme" "*"

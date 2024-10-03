@@ -1,19 +1,4 @@
-// wp-wc-resolver.js (CommonJS version)
-class CustomResolverPlugin {
-  apply(resolver) {
-    resolver
-      .getHook('before-resolve')
-      .tapAsync('CustomResolverPlugin', (request, resolveContext, callback) => {
-        if (request.request && request.request.startsWith('@psu-flex/')) {
-          const packageName = request.request.split('/')[1];
-          request.request = `node_modules/@psu-flex/${packageName}/dist/index`;
-        }
-        callback();
-      });
-  }
-}
-
-// Export using CommonJS syntax
+import CustomResolverPlugin from '@psu-flex/wp-wc-resolver';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
