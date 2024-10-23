@@ -13,10 +13,20 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const federatedData = await fetchAllFederatedData();
-  const { brandFooter, brandBar, header } = federatedData;
+  const { brandFooter, brandBar, header, footer } = federatedData;
   // Example usage
-  const [serializedBrandFooter, serializedBrandBar, serializedHeader] =
-    serializeObjects(brandFooter.linkContentCollection.items, brandBar, header);
+  const [
+    serializedBrandFooter,
+    serializedBrandBar,
+    serializedHeader,
+    serializedFooter,
+  ] = serializeObjects(
+    brandFooter.linkContentCollection.items,
+    brandBar,
+    header,
+    footer
+  );
+
   return (
     <html lang="en">
       <body>
@@ -24,6 +34,7 @@ export default async function RootLayout({
         <psf-brand-bar data={serializedBrandBar} />
         <psf-header data={serializedHeader} />
         {children}
+        <psf-footer data={serializedFooter} />
         <psf-brand-footer data={serializedBrandFooter} />
       </body>
     </html>

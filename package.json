@@ -10,7 +10,7 @@
     "bundle": "rm -rf ./dist && rollup -c"
   },
   "dependencies": {
-    "@psu-flex/core-ui-federated-wc": "^1.2.1",
+    "@psu-flex/core-ui-federated-wc": "^1.2.6",
     "@psu-flex/platform-theme": "^0.3.7",
     "@psu-flex/wc-styles": "^1.0.3",
     "@psu-flex/wp-wc-resolver": "^0.1.8",
