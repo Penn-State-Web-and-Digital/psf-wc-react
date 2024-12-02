@@ -14,6 +14,13 @@ export default async function RootLayout({
 }>) {
   const federatedData = await fetchAllFederatedData();
   const { brandFooter, brandBar, header, footer } = federatedData;
+  const extraSearchOptions = [
+    {
+      label: 'News Archive',
+      value: 'news archive',
+      slug: '/news/search/archive',
+    },
+  ];
   // Example usage
   const [
     serializedBrandFooter,
@@ -27,11 +34,16 @@ export default async function RootLayout({
     footer
   );
 
+  const serializedExtraSearchOptions = JSON.stringify(extraSearchOptions);
+
   return (
     <html lang="en">
       <body>
         <FederatedClient />
-        <psf-brand-bar data={serializedBrandBar} />
+        <psf-brand-bar
+          searchoptions={serializedExtraSearchOptions}
+          data={serializedBrandBar}
+        />
         <psf-header data={serializedHeader} />
         {children}
         <psf-footer data={serializedFooter} />

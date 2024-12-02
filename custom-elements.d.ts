@@ -31,6 +31,6 @@ declare namespace JSX {
     'psf-brand-bar': React.DetailedHTMLProps<
       React.HTMLAttributes<HTMLElement>,
       HTMLElement
-    > & { data: string | null };
+    > & { data: string | null; searchoptions?: string | null };
   }
 }
